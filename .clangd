@@ -1,0 +1,20 @@
+CompileFlags:
+  Add: 
+    - -I./cmsis
+    - -I./stm32
+    - -I.
+    - -DSTM32F103C8
+    - -DSTM32F10X_MD
+    - -DUSE_STDPERIPH_DRIVER
+    - -ffreestanding
+    - -std=c99
+    - --target=arm-none-eabi
+
+Diagnostics:
+  ClangTidy:
+    Remove: [modernize-use-trailing-return-type, readability-identifier-length]
+  Suppress:
+    - "unknown-argument"
+
+Index:
+  Background: Skip

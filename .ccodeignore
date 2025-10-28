@@ -1,0 +1,16 @@
+.direnv/
+.vscode/
+build/
+.envrc
+.gdbinit
+CMakeFiles/
+.gitignore
+CMakeCache.txt
+Makefile
+README.md
+flake.*
+debug-files/
+stm32_template.map
+stm32f103c8.ld
+stm32/
+cmake_install.cmake
