@@ -14,3 +14,5 @@ stm32_template.map
 stm32f103c8.ld
 stm32/
 cmake_install.cmake
+.git/
+cmsis/
